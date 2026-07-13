@@ -9,7 +9,13 @@ if command -v quarto >/dev/null 2>&1; then
   QUARTO="$(command -v quarto)"
 fi
 
+restore_github_pages_fallback() {
+  cp _site/index.html index.html
+  cp _site/404.html 404.html
+}
+
 "$QUARTO" render
+restore_github_pages_fallback
 PATH="$NODE_BIN:$PATH" "$PNPM" dlx wrangler@4.110.0 pages deploy _site \
   --project-name weijie-zhou \
   --branch gh-pages \
