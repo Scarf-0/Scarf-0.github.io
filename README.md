@@ -10,7 +10,13 @@ This repository contains the source for Weijie Zhou's academic website, built wi
 
 ## Update the website
 
-Edit the relevant `.qmd` file, preview the change locally, then commit and push to `main`. GitHub Actions renders the site and publishes the output to the `gh-pages` branch. GitHub Pages and Cloudflare Pages both serve the generated branch.
+Edit `index.qmd`, preview the change locally, then commit and push it to `main`. The repository includes a GitHub Actions workflow for publishing updates to GitHub Pages.
+
+To rebuild and deploy the current version directly to Cloudflare Pages:
+
+```bash
+./deploy.sh
+```
 
 ## Content
 
