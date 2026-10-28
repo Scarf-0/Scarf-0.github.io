@@ -1,9 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Scarf">
-  <path d="M12 13c0-5 4-9 9-9h22c5 0 9 4 9 9v9c0 10-8 18-18 18h-4c-10 0-18-8-18-18z" fill="#c84332"/>
-  <path d="M20 5v19c0 5 4 9 9 9h6c5 0 9-4 9-9V5" fill="none" stroke="#f3c7a4" stroke-width="5"/>
-  <path d="M31 36h18v21a3 3 0 0 1-3 3H34a3 3 0 0 1-3-3z" fill="#d9533f"/>
-  <path d="M37 36h6v24h-6z" fill="#f3c7a4"/>
-  <path d="M34 60v-5m6 5v-5m6 5v-5" fill="none" stroke="#9e3027" stroke-width="2" stroke-linecap="round"/>
-  <path d="M26 31c5 2 11 2 16-1l5 7c-8 5-18 5-26 0z" fill="#a8322a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="红色针织围巾图标，白色背景">
+  <defs>
+    <linearGradient id="scarfRed" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#F45859"/>
+      <stop offset="0.52" stop-color="#DF3744"/>
+      <stop offset="1" stop-color="#BA2638"/>
+    </linearGradient>
+    <linearGradient id="scarflit" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FF6A65"/>
+      <stop offset="0.55" stop-color="#E9474B"/>
+      <stop offset="1" stop-color="#CF3040"/>
+    </linearGradient>
+    <clipPath id="leftEnd"><path d="M178 184 C169 228 158 274 149 318 L130 403 Q128 415 143 419 L188 431 Q201 432 205 417 L223 326 C234 279 244 244 257 217 Z"/></clipPath>
+    <clipPath id="rightEnd"><path d="M271 178 C306 204 318 241 326 284 C333 319 340 357 352 394 Q356 407 344 414 L298 430 Q283 435 279 419 L252 309 C242 264 234 242 211 220 Z"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="#FFFFFF"/>
+  <!-- Tassels and rear hanging end -->
+  <g fill="none" stroke="#B82E3A" stroke-linecap="round" stroke-width="9">
+    <path d="M143 412 L134 449"/><path d="M157 418 L149 456"/>
+    <path d="M174 423 L168 461"/><path d="M190 423 L187 452"/>
+  </g>
+  <g fill="none" stroke="#F16965" stroke-linecap="round" stroke-width="4">
+    <path d="M141 415 L133 448"/><path d="M155 421 L148 453"/><path d="M172 427 L167 458"/>
+  </g>
+  <path d="M178 184 C169 228 158 274 149 318 L130 403 Q128 415 143 419 L188 431 Q201 432 205 417 L223 326 C234 279 244 244 257 217 Z" fill="url(#scarfRed)" stroke="#A52636" stroke-width="7" stroke-linejoin="round"/>
+  <g clip-path="url(#leftEnd)" transform="rotate(13 169 398)">
+    <rect x="103" y="363" width="117" height="14" fill="#F9CB78"/>
+    <rect x="103" y="384" width="117" height="9" fill="#FFD991"/>
+    <rect x="103" y="397" width="117" height="6" fill="#F6A85C"/>
+  </g>
+  <path d="M192 237 C183 277 177 309 166 352" fill="none" stroke="#FF8981" stroke-width="6" stroke-linecap="round" opacity=".4"/>
+  <!-- Knitted upper loop -->
+  <path d="M160 210 C132 183 129 149 147 119 C165 89 207 75 250 78 C299 79 343 98 363 127 C385 160 370 198 341 220 L315 238 L288 194 C313 182 330 164 316 146 C303 126 269 117 240 119 C214 121 193 132 188 151 C184 168 196 182 210 189 Z" fill="url(#scarflit)" stroke="#9F2636" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M163 128 C183 101 218 94 254 98 C296 101 329 119 345 143" fill="none" stroke="#FFAAA0" stroke-width="6" opacity=".55" stroke-linecap="round"/>
+  <path d="M153 172 C159 188 174 203 188 212" fill="none" stroke="#FF8881" stroke-width="5" opacity=".48" stroke-linecap="round"/>
+  <!-- Hanging end in the foreground -->
+  <g fill="none" stroke="#A62636" stroke-width="9" stroke-linecap="round">
+    <path d="M289 419 L294 456"/><path d="M304 426 L310 465"/>
+    <path d="M320 422 L328 463"/><path d="M338 415 L348 453"/>
+  </g>
+  <g fill="none" stroke="#F2706A" stroke-width="4" stroke-linecap="round">
+    <path d="M290 422 L295 454"/><path d="M306 428 L310 461"/><path d="M322 425 L328 459"/><path d="M340 417 L347 449"/>
+  </g>
+  <path d="M271 178 C306 204 318 241 326 284 C333 319 340 357 352 394 Q356 407 344 414 L298 430 Q283 435 279 419 L252 309 C242 264 234 242 211 220 Z" fill="url(#scarfRed)" stroke="#9F2636" stroke-width="7" stroke-linejoin="round"/>
+  <g clip-path="url(#rightEnd)" transform="rotate(-13 322 391)">
+    <rect x="269" y="366" width="111" height="14" fill="#F9CB78"/>
+    <rect x="269" y="387" width="111" height="9" fill="#FFD991"/>
+    <rect x="269" y="400" width="111" height="6" fill="#F6A85C"/>
+  </g>
+  <path d="M279 268 C295 310 301 345 314 379" fill="none" stroke="#FF8B7D" stroke-width="6" stroke-linecap="round" opacity=".42"/>
+  <!-- Scarf overlapping fold -->
+  <path d="M194 170 C213 159 241 158 264 166 C300 180 329 205 337 230 Q339 238 332 245 L304 270 Q296 277 288 267 C269 238 256 223 229 215 C217 212 203 211 192 211 Q181 210 184 198 Z" fill="url(#scarflit)" stroke="#A32635" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M200 185 C226 172 254 180 278 195 C295 206 308 220 320 238" fill="none" stroke="#FF9B91" stroke-width="6" stroke-linecap="round" opacity=".62"/>
+  <path d="M191 210 Q205 221 221 222" fill="none" stroke="#AC2837" stroke-width="5" opacity=".35"/>
 </svg>
-
