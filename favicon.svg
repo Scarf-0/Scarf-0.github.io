@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="红色针织围巾图标，白色背景">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="46 60 420 420" role="img" aria-label="红色针织围巾图标，透明背景">
   <defs>
     <linearGradient id="scarfRed" x1="0" y1="0" x2="1" y2="0.35">
       <stop offset="0" stop-color="#F45859"/>
@@ -13,7 +13,6 @@
     <clipPath id="leftEnd"><path d="M178 184 C169 228 158 274 149 318 L130 403 Q128 415 143 419 L188 431 Q201 432 205 417 L223 326 C234 279 244 244 257 217 Z"/></clipPath>
     <clipPath id="rightEnd"><path d="M271 178 C306 204 318 241 326 284 C333 319 340 357 352 394 Q356 407 344 414 L298 430 Q283 435 279 419 L252 309 C242 264 234 242 211 220 Z"/></clipPath>
   </defs>
-  <rect width="512" height="512" fill="#FFFFFF"/>
   <!-- Tassels and rear hanging end -->
   <g fill="none" stroke="#B82E3A" stroke-linecap="round" stroke-width="9">
     <path d="M143 412 L134 449"/><path d="M157 418 L149 456"/>
